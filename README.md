@@ -4,11 +4,10 @@ Python interface to download GSV panoramas in parallel.
 
 ## How to use it
 
-Using the ``dwl_multiple`` method is possible to download in parallel multiple images. 
+It is possible to obtain the panorama ids providing a list of points using the tool in the **metadataret folder**. Open index.html in a browser and provide a txt file containing latitude and longitude pairs in the format:
+- lat long\n
 
-It is possible to obtain the panorama ids providing a list of points using the tool present in the repository **skia** at the url:
-
-https://github.com/modusV/skia/tree/master/src/metadataret
+Afterwards, using the ``dwl_multiple()`` method is possible to download in parallel multiple images. Here's an example of a possible implementation:
 
 
 ```python
