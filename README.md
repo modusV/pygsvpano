@@ -5,7 +5,7 @@ Python interface to download GSV panoramas in parallel.
 ## How to use it
 Install the requirements:
 
-```pip install -r Constant/requirements.txt```
+```pip install -r requirements.txt```
 
 It is possible to obtain the panorama ids providing a list of points using the tool in the **metadataret folder**. Open index.html in a browser and provide a txt file containing latitude and longitude pairs in the format:
 - lat long\n
